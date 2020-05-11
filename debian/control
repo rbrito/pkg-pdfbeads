@@ -1,7 +1,7 @@
 Source: pdfbeads
 Section: graphics
 Priority: optional
-Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Maintainer: Debian Ruby Team <debian-ruby@lists.debian.org>
 Uploaders: Rogério Brito <rbrito@ime.usp.br>
 Build-Depends: debhelper-compat (= 12),
                gem2deb (>= 1),
