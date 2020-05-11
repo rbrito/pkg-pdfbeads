@@ -1,5 +1,12 @@
-ruby-pdfbeads (1.1.1-1) UNRELEASED; urgency=medium
+ruby-pdfbeads (1.1.1-1~1.gbp32dede) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @32dedef47212893ccf48ee9d28fd659a48689358 **
 
   * Initial release (Closes: #nnnn)
+  * debian/control:
+    + Add Suggests on jbig2enc (to be introduced).
+    + Add Enhances on scantailor-advanced and scantailor.
+    + Remove ${shlib:Depends}.
+  * debian/patches: Add 0001-Remove-import-iconv-from-the-top-level-pdfbeads-scri.patch
 
- -- Rogério Brito <rbrito@ime.usp.br>  Mon, 11 May 2020 05:14:56 -0300
+ -- Rogério Brito <rbrito@ime.usp.br>  Mon, 11 May 2020 05:53:21 -0300
