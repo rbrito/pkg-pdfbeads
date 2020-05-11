@@ -2,7 +2,7 @@ ruby-pdfbeads (1.1.1-1~1.gbp32dede) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @32dedef47212893ccf48ee9d28fd659a48689358 **
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #960229)
   * debian/control:
     + Add Suggests on jbig2enc (to be introduced).
     + Add Enhances on scantailor-advanced and scantailor.
