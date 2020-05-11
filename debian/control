@@ -23,6 +23,7 @@ XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${misc:Depends},
          ${ruby:Depends},
          ${shlibs:Depends}
+Suggests: jbig2enc
 Description: PDFBeads -- convert scanned images to a single PDF file.
  PDFBeads is a small utility written in Ruby which takes scanned
  page images and converts them into a single PDF file. Unlike other
