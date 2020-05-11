@@ -1,0 +1,22 @@
+From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@ime.usp.br>
+Date: Mon, 11 May 2020 05:46:36 -0300
+Subject: Remove `import 'iconv'` from the top-level pdfbeads script.
+
+New versions of Ruby already provide strings with String#encode and the code
+is prepared for this.
+---
+ bin/pdfbeads | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/bin/pdfbeads b/bin/pdfbeads
+index 3fbe920..4a1b12a 100755
+--- a/bin/pdfbeads
++++ b/bin/pdfbeads
+@@ -32,7 +32,6 @@
+ #######################################################################
+ 
+ require 'optparse'
+-require 'iconv'
+ require 'time'
+ 
+ require 'pdfbeads'
