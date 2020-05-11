@@ -1,2 +1,3 @@
 0001-Remove-import-iconv-from-the-top-level-pdfbeads-scri.patch
 0002-lib-pdfbeads-.rb-Remove-shebang-from-files-that-are-.patch
+0003-lib-pdfbeads.rb-Change-RMagick-to-rmagick-to-avoid-a.patch

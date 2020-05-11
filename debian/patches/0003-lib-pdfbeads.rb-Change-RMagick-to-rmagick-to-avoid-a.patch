@@ -1,0 +1,21 @@
+From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@ime.usp.br>
+Date: Mon, 11 May 2020 06:21:43 -0300
+Subject: lib/pdfbeads.rb: Change RMagick to rmagick to avoid a warning.
+
+---
+ lib/pdfbeads.rb | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/lib/pdfbeads.rb b/lib/pdfbeads.rb
+index f4fec6c..232eef1 100644
+--- a/lib/pdfbeads.rb
++++ b/lib/pdfbeads.rb
+@@ -32,7 +32,7 @@
+ 
+ require 'zlib'
+ 
+-require 'RMagick'
++require 'rmagick'
+ include Magick
+ 
+ begin
