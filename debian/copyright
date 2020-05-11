@@ -4,14 +4,14 @@ Source: http://pdfbeads.rubyforge.org
 
 Files: *
 Copyright: 2010-2014 Alexey Kryukov <amkryukov@gmail.com>
-License: GPL-2
+License: GPL-2+
 
 Files: debian/*
 Copyright: 2020 Rogério Theodoro de Brito <rbrito@ime.usp.br>
-License: GPL-2
+License: GPL-2+
 Comment: The Debian packaging is licensed under the same terms as the source.
 
-License: GPL-2
+License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 2 of the License, or
