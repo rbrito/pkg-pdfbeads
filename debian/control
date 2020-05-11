@@ -2,7 +2,7 @@ Source: ruby-pdfbeads
 Section: ruby
 Priority: optional
 Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
-Uploaders: Rogério Theodoro de Brito <rbrito@ime.usp.br>
+Uploaders: Rogério Brito <rbrito@ime.usp.br>
 Build-Depends: debhelper-compat (= 12),
                gem2deb (>= 1),
                ruby,
