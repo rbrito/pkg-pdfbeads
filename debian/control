@@ -24,6 +24,7 @@ Depends: ${misc:Depends},
          ${ruby:Depends},
          ${shlibs:Depends}
 Suggests: jbig2enc
+Enhances: scantailor-advanced | scantailor
 Description: PDFBeads -- convert scanned images to a single PDF file.
  PDFBeads is a small utility written in Ruby which takes scanned
  page images and converts them into a single PDF file. Unlike other
