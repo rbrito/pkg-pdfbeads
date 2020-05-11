@@ -1,0 +1,38 @@
+From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@ime.usp.br>
+Date: Mon, 11 May 2020 06:08:46 -0300
+Subject: lib/pdfbeads/*.rb: Remove shebang from files that are not
+ executables.
+
+---
+ lib/pdfbeads/pdfbuilder.rb | 1 -
+ lib/pdfbeads/pdfdoc.rb     | 1 -
+ lib/pdfbeads/pdffont.rb    | 1 -
+ 3 files changed, 3 deletions(-)
+
+diff --git a/lib/pdfbeads/pdfbuilder.rb b/lib/pdfbeads/pdfbuilder.rb
+index f34b094..e1c3d10 100644
+--- a/lib/pdfbeads/pdfbuilder.rb
++++ b/lib/pdfbeads/pdfbuilder.rb
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env ruby
+ # encoding: UTF-8
+ 
+ ######################################################################
+diff --git a/lib/pdfbeads/pdfdoc.rb b/lib/pdfbeads/pdfdoc.rb
+index 1f850ca..4d073d7 100644
+--- a/lib/pdfbeads/pdfdoc.rb
++++ b/lib/pdfbeads/pdfdoc.rb
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env ruby
+ # encoding: UTF-8
+ 
+ ######################################################################
+diff --git a/lib/pdfbeads/pdffont.rb b/lib/pdfbeads/pdffont.rb
+index 6da269f..990b043 100644
+--- a/lib/pdfbeads/pdffont.rb
++++ b/lib/pdfbeads/pdffont.rb
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env ruby
+ # encoding: UTF-8
+ 
+ ######################################################################
