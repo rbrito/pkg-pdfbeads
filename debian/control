@@ -1,5 +1,5 @@
-Source: ruby-pdfbeads
-Section: ruby
+Source: pdfbeads
+Section: graphics
 Priority: optional
 Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
 Uploaders: Rogério Brito <rbrito@ime.usp.br>
@@ -10,14 +10,14 @@ Build-Depends: debhelper-compat (= 12),
                ruby-pdf-reader (>= 1.0.0),
                ruby-rmagick (>= 2.13.0)
 Standards-Version: 4.5.0
-Vcs-Git: https://salsa.debian.org/ruby-team/ruby-pdfbeads.git
-Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-pdfbeads
+Vcs-Git: https://salsa.debian.org/ruby-team/pdfbeads.git
+Vcs-Browser: https://salsa.debian.org/ruby-team/pdfbeads
 Homepage: http://pdfbeads.rubyforge.org
 Testsuite: autopkgtest-pkg-ruby
 XS-Ruby-Versions: all
 Rules-Requires-Root: no
 
-Package: ruby-pdfbeads
+Package: pdfbeads
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${misc:Depends},
