@@ -21,8 +21,7 @@ Package: ruby-pdfbeads
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${misc:Depends},
-         ${ruby:Depends},
-         ${shlibs:Depends}
+         ${ruby:Depends}
 Suggests: jbig2enc
 Enhances: scantailor-advanced | scantailor
 Description: PDFBeads -- convert scanned images to a single PDF file.
